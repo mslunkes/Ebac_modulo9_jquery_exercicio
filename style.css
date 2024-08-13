@@ -49,6 +49,9 @@ button:hover {
 #botao-cancelar:hover {
     background-color: rgb(147, 0, 0);
 }
+li {
+    margin: 10px;
+}
 .complete {
     text-decoration: line-through
 }

@@ -4,7 +4,10 @@ $(document).ready(function() {
         const novaTask = $('#task-new').val()
         const novaTarefaLista = $(`<li>${novaTask}</li>`)
         $(novaTarefaLista).appendTo('ul')
+        $('#task-new').val('');
     })
-
+    $(document).on('click', 'li', function(){
+        $(this).toggleClass('complete')
+    })
 
 })
